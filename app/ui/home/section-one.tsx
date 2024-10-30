@@ -33,7 +33,7 @@ export default function SectionOne() {
               <Link className="p-3 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="/version">Get TNOS Pro</Link>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-6 mt-3">
+          <div className="grid grid-cols-2 gap-10 mt-3">
             <Image className="mt-6"
               src="/aimage1.svg"
               width={120}

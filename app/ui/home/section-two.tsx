@@ -73,7 +73,7 @@ export default function SectionTwo() {
             <p className="text-xl">Open source security</p>
             <p className="text-xl">TNOS Pro is more than Linux.</p>
             <p className="text-xl">Security and compliance for the full stack.</p>
-            <p>Secure your open source apps. Patch the full stack, from kernel to library and applications, for CVE compliance. Governments and auditors certify Ubuntu for FedRAMP, FISMA and HITECH.</p>
+            <p>Secure your open source apps. Patch the full stack, from kernel to library and applications, for CVE compliance. Governments and auditors certify TNOS for FedRAMP, FISMA and HITECH.</p>
             <div className="grid grid-cols-2 mt-8">
             <Image className="rounded-xl p-5"
               src="/niimage.svg"

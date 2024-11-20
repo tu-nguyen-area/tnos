@@ -8,16 +8,16 @@ export default function SectionOne() {
 
         <div className="sm:flex justify-between m-6">
           <div>
-            <p>TNOS 0.0.4 is now available for download</p>
+            <p className="text-xl">TNOS 0.0.4 is now available for download</p>
             <p className="">Discover the latest and greatest features in our most recent interim release.</p>
             <p>Delivering the latest Linux 6.10 kernel, extended support for the most recent toolchains, and new experimental security features.</p>
-            <div className="mt-3">
-              <Link className="p-3 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="/version">Get TNOS</Link>
+            <div className="mt-6">
+              <Link className="p-3 pl-14 pr-14 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="/download">Get TNOS</Link>
             </div>
           </div>
           <Image className="m-3"
             src="/image1.svg"
-            width={120}
+            width={150}
             height={2}
             alt="Image1"
           />
@@ -30,7 +30,7 @@ export default function SectionOne() {
             <p className="text-xl">Modern enterprise open source</p>
             <p>Security, support, and managed services from the publisher of TNOS. </p>
             <div className="mt-6">
-              <Link className="p-3 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="/version">Get TNOS Pro</Link>
+              <Link className="p-3 pl-10 pr-10 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="/download">Get TNOS Pro</Link>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-10 mt-3">

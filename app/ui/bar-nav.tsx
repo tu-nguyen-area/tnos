@@ -4,8 +4,7 @@ const links = [
   { name: 'Products', href: '/home' },
   { name: 'Use cases', href: '/' },
   { name: 'Support', href: '/' },
-  { name: 'Community', href: '/' },
-  { name: 'Get TNOS', href: '/version' },
+  { name: 'Get TNOS', href: '/download' },
   { name: 'About us', href: '/' },
 ];
 

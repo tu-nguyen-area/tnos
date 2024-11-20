@@ -50,7 +50,7 @@ export default function SectionTwo() {
             <p>&#9989; Secure by design</p>
             <p>&#9989; A release cadence you can depend on</p>
             <p>&#9989; Stability through long term support</p>
-            <p>That’s why Ubuntu supports the fastest, biggest and most successful digital operations.</p>
+            <p>That’s why TNOS supports the fastest, biggest and most successful digital operations.</p>
             <p>Download our guide to secure enterprise Linux&#8594;</p>
             <p>Build your AI models on TNOS&#8594;</p>
           </div>

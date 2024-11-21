@@ -9,8 +9,8 @@ import styles from '@/app/utils/home.module.css';
 export default function Page() {
   return (
     <>
-      <div className={`${styles.homeBackground}`}>
 
+      <div className={`${styles.homeBackground}`}>
         <Header />
         <BarNav />
 

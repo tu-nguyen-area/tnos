@@ -9,6 +9,7 @@ import styles from '@/app/utils/download.module.css';
 export default function Page() {
   return (
     <>
+
       <div className={`${styles.downloadBackground}`}>
         <Header />
         <BarNav />
@@ -19,8 +20,8 @@ export default function Page() {
           <SectionThree />
         </div>
 
+        <Footer />
       </div>
-      <Footer />
 
     </>
   );

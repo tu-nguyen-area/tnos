@@ -8,10 +8,10 @@ export default function SectionTwo() {
       <div className="m-16">
         <div>
           <p className="text-xl">TNOS for servers</p>
-          <p>The open source operating system powers millions of servers and workstations around the world.</p>
+          <p>The open source operating system powers billions of servers and workstations around the world.</p>
           <p>Ship with Nginx web server, PostgreSQL database management system, Nodejs JavaScript runtime environment</p>
           <div className="mt-6">
-            <Link className="p-3 sm:pl-14 sm:pr-14 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="#">Download TNOS Server</Link>
+            <Link className="p-3 sm:pl-14 sm:pr-14 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" target="_blank" href="https://drive.google.com/file/d/1x0-GSJcWdhjn2ZlTAA8PgqZQ5zd23snw/view">Download TNOS Server</Link>
           </div>
         </div>
         <div className="pt-6">
@@ -22,6 +22,17 @@ export default function SectionTwo() {
             alt="eImage"
           />
         </div>
+          <div className="p-6">
+            <p className="text-xl">The secure, modern and stable operating system used by billions</p>
+            <div className="ml-8">
+              <p>&#9989; The preferred choice for professional server engineers.</p>
+              <p>&#9989; Everything you need to config and run.</p>
+              <p>&#9989; Private, secure and stable by design.</p>
+              <p>&#9989; Thousands of applications for server.</p>
+              <p>&#9989; Kernel Livepatch for 24/7 patching with no downtime.</p>
+              <p>&#9989; Professional technical support team 24/356.</p>
+            </div>
+          </div>
       </div>
 
       <div className="m-12 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>

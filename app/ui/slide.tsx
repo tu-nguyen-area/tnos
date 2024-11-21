@@ -12,7 +12,7 @@ export default function Slide() {
         {brands.map((brand) => {
           return (
             <Image className="m-8"
-              key={brand.name}
+              key={`${brand.name} ${Math.random()}`}
               src={brand.url}
               width={150}
               height={2}
@@ -25,7 +25,7 @@ export default function Slide() {
         {brands.map((brand) => {
           return (
             <Image className="m-8"
-              key={brand.name}
+              key={`${brand.name} ${Math.random()}`}
               src={brand.url}
               width={150}
               height={2}

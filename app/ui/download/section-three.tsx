@@ -62,7 +62,7 @@ export default function SectionThree() {
           </div>
         </div>
         <div className="p-6">
-          <p className="text-xl">Ready for IOT, Artificial Intelligence, Supercomputer and more...</p>
+          <p className="text-xl pb-10">Ready for IOT, Artificial Intelligence, Supercomputer, Cloud Computing, Distributed Computing, Computer Vision and more...</p>
           <div className="flex flex-col gap-10">
             <div>
               <Image className="rounded-xl"

@@ -15,7 +15,7 @@ export default function SectionOne() {
           </div>
           <div className="p-6">
             <p className="text-xl">The secure, modern operating system used by billions</p>
-            <div className="ml-8">
+            <div className="sm:ml-8">
               <p>&#9989; The preferred choice for professional web developers.</p>
               <p>&#9989; Everything you need to daily drive.</p>
               <p>&#9989; Private and secure and stable by design.</p>

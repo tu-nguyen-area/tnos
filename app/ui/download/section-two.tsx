@@ -24,7 +24,7 @@ export default function SectionTwo() {
         </div>
           <div className="p-6">
             <p className="text-xl">The secure, modern and stable operating system used by billions</p>
-            <div className="ml-8">
+            <div className="sm:pl-8">
               <p>&#9989; The preferred choice for professional server engineers.</p>
               <p>&#9989; Everything you need to config and run.</p>
               <p>&#9989; Private, secure and stable by design.</p>

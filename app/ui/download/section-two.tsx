@@ -30,7 +30,7 @@ export default function SectionTwo() {
               <p>&#9989; Private, secure and stable by design.</p>
               <p>&#9989; Thousands of applications for server.</p>
               <p>&#9989; Kernel Livepatch for 24/7 patching with no downtime.</p>
-              <p>&#9989; Professional technical support team 24/356.</p>
+              <p>&#9989; Professional technical support team 24/365.</p>
             </div>
           </div>
       </div>

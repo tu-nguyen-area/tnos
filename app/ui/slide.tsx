@@ -21,6 +21,7 @@ export default function Slide() {
           );
         })}
       </div>
+
       <div className={`${styles.slideFlex} ${styles.slideSlipSlow}`}>
         {brands.map((brand) => {
           return (
@@ -34,7 +35,6 @@ export default function Slide() {
           );
         })}
       </div>
-
 
     </>
   );

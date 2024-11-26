@@ -10,7 +10,7 @@ export default function SectionThree() {
           <p className="text-xl">TNOS core</p>
           <p>The pure open source TNOS operating system.</p>
           <p>Ship with pure systems, ready to install any software, anytime, anywhere.</p>
-          <div className="mt-6 flex flex-col gap-10 sm:w-96">
+          <div className="mt-6 flex flex-col gap-10 sm:w-96 justify-center">
             <p className="text-sm">TNOS 0.0.4 - GCC 14.2.0 | Glibc 2.40 | Linux 6.10.6</p>
             <Link className="p-3 transition-all hover:text-xl text-center text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl"
               target="_blank"
@@ -62,7 +62,7 @@ export default function SectionThree() {
           </div>
         </div>
         <div className="p-6">
-          <p className="text-xl pb-10">Ready for IOT, Artificial Intelligence, Supercomputer, Cloud Computing, Distributed Computing, Computer Vision and more...</p>
+          <p className="text-xl pb-10">Ready for IOT, Artificial Intelligence, Supercomputer, Cloud Computing, Distributed Computing, Computer Vision, Quantum Computing and more...</p>
           <div className="flex flex-col gap-10">
             <div>
               <Image className="rounded-xl"

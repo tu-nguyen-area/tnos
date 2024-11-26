@@ -1,12 +1,24 @@
+'use client'
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 
 export default function SectionTwo() {
-  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-  const y = new Date();
-  const nyear = y.getFullYear();
-  const nmonth = months[y.getMonth()];
-  const nday = y.getDate();
+    const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    const y = new Date();
+
+    const [nyear, setNyear] = useState(0);
+    const [nmonth, setNmonth] = useState('');
+    const [nday, setNday] = useState(0);
+
+    function getTime() {
+      setNyear(y.getFullYear());
+      setNmonth(months[y.getMonth()]);
+      setNday(y.getDate());
+    }
+
+    setTimeout(getTime, 1000)
 
   return (
     <>

@@ -11,6 +11,7 @@ const links = [
 export default function BarNav() {
   return (
     <>
+
       <div className="sm:flex justify-around hidden m-2">
         {links.map((link) => {
           return (
@@ -20,6 +21,7 @@ export default function BarNav() {
           );
         })}
       </div>
+
     </>
   );
 }

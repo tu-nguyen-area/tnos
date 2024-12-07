@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ShimmerButton from '@/app/ui/shimmer-button';
 
 export default function SectionOne() {
   return (
@@ -12,7 +13,13 @@ export default function SectionOne() {
             <p className="">Discover the latest and greatest features in our most recent interim release.</p>
             <p>Delivering the latest Linux 6.10 kernel, extended support for the most recent toolchains, and new experimental security features.</p>
             <div className="mt-6">
-              <Link className="p-3 pl-14 pr-14 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="/download">Get TNOS</Link>
+              <Link href="/download">
+                <ShimmerButton>
+                  <span>
+                    Get TNOS
+                  </span>
+                </ShimmerButton>
+              </Link>
             </div>
           </div>
           <Image className="m-3"
@@ -30,7 +37,13 @@ export default function SectionOne() {
             <p className="text-xl">Modern enterprise open source</p>
             <p>Security, support, and managed services from the publisher of TNOS. </p>
             <div className="mt-6">
-              <Link className="p-3 pl-10 pr-10 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" href="/download">Get TNOS Pro</Link>
+              <Link href="/download">
+                <ShimmerButton>
+                  <span>
+                    Get TNOS Pro
+                  </span>
+                </ShimmerButton>
+              </Link>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-10 mt-3">

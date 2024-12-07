@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import ShimmerButton from '@/app/ui/shimmer-button';
 
 export default function SectionOne() {
   return (
@@ -11,7 +12,11 @@ export default function SectionOne() {
           <p>The open source operating system powers billions of PCs and laptops around the world.</p>
           <p>Ship with Xorg, Fluxbox, Nodejs, Firefox web browser.</p>
           <div className="mt-6 mb-6">
-            <Link className="p-3 sm:pl-12 sm:pr-12 transition-all hover:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl" target="_blank" href="https://drive.google.com/file/d/1USu9C8GpXMU-I___rYb8rcsK2rRozwFN/view">Download TNOS Desktop</Link>
+            <Link target="_blank" href="https://drive.google.com/file/d/1USu9C8GpXMU-I___rYb8rcsK2rRozwFN/view">
+              <ShimmerButton>
+                Download TNOS Desktop
+              </ShimmerButton>
+            </Link>
           </div>
           <div className="p-6">
             <p className="text-xl">The secure, modern operating system used by billions</p>

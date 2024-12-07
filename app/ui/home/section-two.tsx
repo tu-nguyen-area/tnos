@@ -18,7 +18,7 @@ export default function SectionTwo() {
       setNday(y.getDate());
     }
 
-    setTimeout(getTime, 1000)
+    setTimeout(getTime, 1000);
 
   return (
     <>

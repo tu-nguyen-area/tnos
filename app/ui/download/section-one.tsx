@@ -13,7 +13,7 @@ export default function SectionOne() {
           <p>Ship with Xorg, Fluxbox, Nodejs, Firefox web browser.</p>
           <div className="mt-6 mb-6">
             <Link target="_blank" href="https://drive.google.com/file/d/1USu9C8GpXMU-I___rYb8rcsK2rRozwFN/view">
-              <ShimmerButton>
+              <ShimmerButton className="w-11/12 sm:w-auto">
                 Download TNOS Desktop
               </ShimmerButton>
             </Link>

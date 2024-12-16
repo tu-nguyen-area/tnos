@@ -13,7 +13,7 @@ export default function SectionTwo() {
           <p>Ship with Nginx web server, PostgreSQL database management system, Nodejs JavaScript runtime environment</p>
           <div className="mt-6">
             <Link target="_blank" href="https://drive.google.com/file/d/1x0-GSJcWdhjn2ZlTAA8PgqZQ5zd23snw/view">
-              <ShimmerButton>
+              <ShimmerButton className="w-11/12 sm:w-auto">
                 Download TNOS Server
               </ShimmerButton>
             </Link>

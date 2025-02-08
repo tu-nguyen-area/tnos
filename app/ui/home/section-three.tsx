@@ -2,15 +2,15 @@ import Slide from '@/app/ui/slide';
 
 export default function SectionThree() {
   return (
-    <>
+  <>
 
-      <div className="m-16">
-        <p className="text-xl">Workstations and desktops</p>
-        <p>Optimised AI/ML and cloud devops.</p>
-        <p>The professional developer’s preference.</p>
-        <Slide />
-      </div>
+  <section className="my-12 text-black">
+    <p className="text-xl">Workstations and desktops</p>
+    <p>Optimised AI/ML and cloud devops.</p>
+    <p>The professional developer&#39;s preference.</p>
+    <Slide />
+  </section>
 
-    </>
+  </>
   );
 }

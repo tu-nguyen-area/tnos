@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 
 const links = [
@@ -9,19 +12,35 @@ const links = [
 ];
 
 export default function BarNav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function toggleBarNav() {
+    setIsOpen(!isOpen);
+  }
+
   return (
-    <>
+  <>
 
-      <div className="sm:flex justify-around hidden m-2">
-        {links.map((link) => {
-          return (
-            <Link key={link.name} href={link.href} className="p-3">
-              {link.name}
-            </Link>
-          );
-        })}
+  <nav>
+    <button onClick={toggleBarNav} className="fixed right-0 top-6 z-10 m-3 text-xl bg-white dark:bg-black p-1 rounded opacity-50 text-black dark:text-white p-2">
+      {isOpen ? '✖' : '☰'}
+    </button>
+
+    {isOpen && (
+    <div>
+      <div className="grid md:flex justify-center fixed top-8 bg-white dark:bg-black w-full h-full md:h-18 overflow-auto">
+      {links.map((link) => {
+        return (
+          <Link key={link.name} href={link.href} className="bg-black text-white dark:bg-white dark:text-black text-center hover:text-white hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500 rounded-lg m-3 p-3 w-28 h-12">
+            {link.name}
+          </Link>
+        );
+      })}
       </div>
+    </div>
+    )}
+  </nav>
 
-    </>
+  </>
   );
 }

@@ -12,13 +12,11 @@ export default function SectionTwo() {
   const [nyear, setNyear] = useState(0);
   const [nmonth, setNmonth] = useState('');
   const [nday, setNday] = useState(0);
-  const [ns, setNs] = useState(0);
 
   function getTime() {
     setNyear(y.getFullYear());
     setNmonth(months[y.getMonth()]);
     setNday(y.getDate());
-    setNs(y.getSeconds());
   }
 
   useEffect(() => {
@@ -30,7 +28,7 @@ export default function SectionTwo() {
 
     <section>
       <div className="my-12 text-black">
-        <p className="text-xl pb-8">Latest news from our blog {ns}</p>
+        <p className="text-xl pb-8">Latest news from our blog</p>
         <div className="md:flex md:p-8 md:gap-10">
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>

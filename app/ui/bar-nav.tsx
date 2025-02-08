@@ -28,6 +28,12 @@ export default function BarNav() {
 
     {isOpen && (
     <div>
+      <div className="fixed flex flex-row justify-between top-0 p-1 w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
+      <Link href="/">
+        TNOS
+      </Link>
+      <p>tudellg33579@protonmail.com</p>
+      </div>
       <div className="grid md:flex justify-center fixed top-8 z-20 bg-white dark:bg-black w-full h-full md:h-18 overflow-auto">
       {links.map((link) => {
         return (

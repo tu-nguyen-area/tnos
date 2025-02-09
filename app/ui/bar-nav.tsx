@@ -4,8 +4,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const links = [
-  { name: 'Products', href: '/home' },
-  { name: 'Use cases', href: '/' },
+  { name: 'Products', href: '/download' },
+  { name: 'Use cases', href: '/home' },
   { name: 'Support', href: '/' },
   { name: 'Get TNOS', href: '/download' },
   { name: 'About us', href: '/' },

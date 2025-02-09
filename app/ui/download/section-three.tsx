@@ -3,6 +3,11 @@ import Image from 'next/image';
 
 const lLinks = [
   {
+    name: "TNOS 0.0.5 - Coming soon...",
+    url: "#",
+    version: "TNOS Core 0.0.5",
+  },
+  {
     name: "TNOS 0.0.4 - GCC 14.2.0 | Glibc 2.40 | Linux 6.10.6",
     url: "https://drive.google.com/file/d/1UhISg507ELN7vKS-RuMM-jb-UlBbBiyC/view",
     version: "TNOS Core 0.0.4",
@@ -43,9 +48,9 @@ export default function SectionThree() {
           <div key={link.version}>
             <p className="py-6">{link.name}</p>
             <div className="md:flex justify-center">
-            <Link className="md:w-fit" target="_blank" href={link.url}>
-              <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">{link.version}</button>
-            </Link>
+              <Link className="md:w-fit" target="_blank" href={link.url}>
+                <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">{link.version}</button>
+              </Link>
             </div>
           </div>
         );

@@ -59,7 +59,7 @@ export default function SectionThree() {
       </div>
       <div className="md:flex md:gap-32 py-6">
         <div className="py-8">
-          <Image className="rounded-lg w-full"
+          <Image className="rounded-lg"
             src="/core1.png"
             width={300}
             height={2}

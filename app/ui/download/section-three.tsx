@@ -57,25 +57,25 @@ export default function SectionThree() {
       })}
       </div>
       </div>
-      <div className="md:flex md:gap-32 p-6">
-        <div className="pb-3">
-          <Image className="rounded-lg"
+      <div className="md:flex md:gap-32 py-6">
+        <div className="py-8">
+          <Image className="rounded-lg w-full md:w-auto"
             src="/core1.png"
             width={300}
             height={2}
             alt="Image1"
           />
         </div>
-        <div className="p-3 md:p-0">
+        <div className="py-8 w-full md:w-auto">
           <Image className="rounded-lg"
             src="/core2.png"
-            width={292}
+            width={380}
             height={2}
             alt="Image1"
           />
         </div>
       </div>
-      <div className="p-6">
+      <div className="">
         <p className="text-xl pb-10">Ready for IOT, Artificial Intelligence, Supercomputer, Cloud Computing, Distributed Computing, Computer Vision, Quantum Computing and more...</p>
         <div className="flex flex-col md:grid md:grid-cols-2 items-center gap-10">
           <div>
@@ -112,7 +112,7 @@ export default function SectionThree() {
           </div>
         </div>
       </div>
-    <div className="text-center">
+    <div className="text-center my-8">
       <p className="text-2xl">Everything you think, everything you can imagine...</p><div><Link href="/" className="text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent">Start here</Link></div>
     </div>
   </section>

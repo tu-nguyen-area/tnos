@@ -27,8 +27,8 @@ export default function SectionTwo() {
   <>
 
     <section>
-      <div className="my-12 text-black">
-        <p className="text-xl pb-8">Latest news from our blog</p>
+      <div className="my-16 text-black">
+        <p className="text-xl pb-8 font-bold">Latest news from our blog</p>
         <div className="md:flex md:p-8 md:gap-10">
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>
@@ -58,20 +58,20 @@ export default function SectionTwo() {
       <div className="my-12 text-black">
         <div className="sm:flex gap-12">
           <div className="flex flex-col gap-5 mb-3 justify-between">
-            <p className="text-xl">Energise your engineers</p>
+            <p className="text-xl font-bold">Energise your engineers</p>
             <p>Loved by developers and trusted by enterprises. TNOS is the first pick for organisations to support their software infrastructure and the OS chosen by 33% of experienced developers.</p>
-            <p><IconCheck stroke={2} className="inline-block"/>Authentically open source</p>
-            <p><IconCheck stroke={2} className="inline-block"/>Secure by design</p>
-            <p><IconCheck stroke={2} className="inline-block"/>A release cadence you can depend on</p>
-            <p><IconCheck stroke={2} className="inline-block"/>Stability through long term support</p>
+            <p className="md:ml-6"><IconCheck stroke={2} className="inline-block"/>Authentically open source</p>
+            <p className="md:ml-6"><IconCheck stroke={2} className="inline-block"/>Secure by design</p>
+            <p className="md:ml-6"><IconCheck stroke={2} className="inline-block"/>A release cadence you can depend on</p>
+            <p className="md:ml-6"><IconCheck stroke={2} className="inline-block"/>Stability through long term support</p>
             <p>That&#39;s why TNOS supports the fastest, biggest and most successful digital operations.</p>
             <p>Download our guide to secure enterprise Linux&#8594;</p>
             <p>Build your AI models on TNOS&#8594;</p>
           </div>
           <div>
-            <Image className="rounded-xl"
-              src="/eimage1.svg"
-              width={300}
+            <Image className="rounded-lg"
+              src="/eimage1.png"
+              width={600}
               height={2}
               alt="eImage"
             />
@@ -81,10 +81,10 @@ export default function SectionTwo() {
 
       <div className="mt-3 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
 
-      <div className="my-12 text-black">
+      <div className="my-16 text-black">
         <div className="sm:flex gap-10">
           <div>
-            <p className="text-xl">Open source security</p>
+            <p className="text-xl font-bold">Open source security</p>
             <p className="text-xl">TNOS Pro is more than Linux.</p>
             <p className="text-xl">Security and compliance for the full stack.</p>
             <p>Secure your open source apps. Patch the full stack, from kernel to library and applications, for CVE compliance. Governments and auditors certify TNOS for FedRAMP, FISMA and HITECH.</p>

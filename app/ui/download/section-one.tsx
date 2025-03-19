@@ -7,7 +7,7 @@ export default function SectionOne() {
       <>
   
     <section>
-      <div className="my-12 md:flex justify-between">
+      <div className="py-8 md:flex justify-between">
         <div>
           <p className="text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent text-center w-fit">TNOS for Desktops</p>
           <p className="text-black">The open source operating system powers billions of PCs and laptops around the world.</p>

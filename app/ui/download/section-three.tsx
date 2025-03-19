@@ -61,7 +61,7 @@ export default function SectionThree() {
         <div className="py-8">
           <Image className="rounded-lg"
             src="/core1.png"
-            width={300}
+            width={400}
             height={2}
             alt="Image1"
           />
@@ -69,7 +69,7 @@ export default function SectionThree() {
         <div className="py-8 w-full md:w-auto">
           <Image className="rounded-lg"
             src="/core2.png"
-            width={380}
+            width={390}
             height={2}
             alt="Image1"
           />

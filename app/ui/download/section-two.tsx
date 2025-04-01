@@ -17,7 +17,7 @@ export default function SectionTwo() {
         </Link>
       </div>
     </div>
-<div className="md:flex md:justify-between md:my-16 md:items-center">
+    <div className="md:flex md:justify-between md:my-16 md:items-center md:gap-6">
     <div className="pt-6 md:w-[50%]">
       <Image className="rounded-lg w-full"
         src="/server1.svg"
@@ -37,7 +37,7 @@ export default function SectionTwo() {
           <p><IconCheck stroke={2} className="inline-block"/>Professional technical support team 24/365.</p>
         </div>
       </div>
-</div>
+    </div>
       <div className="mt-3 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
   </section>
 

@@ -42,11 +42,13 @@ export default function SectionThree() {
     <p className="text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent text-center w-fit">TNOS Core</p>
     <p>The pure open source TNOS operating system.</p>
     <p>Ship with pure systems, ready to install any software, anytime, anywhere.</p>
-    <div className="mt-6 flex flex-col gap-6 md:grid md:grid-cols-3 md:gap-12 w-full md:w-fit justify-center items-center">
+    <div className="mt-6 flex flex-col gap-6 md:grid md:grid-cols-3 md:gap-12 w-full md:w-full justify-center items-center">
       {lLinks.map((link) => {
         return (
           <div key={link.version}>
-            <p className="py-6">{link.name}</p>
+            <div className="md:flex justify-center">
+              <p className="py-6">{link.name}</p>
+            </div>
             <div className="md:flex justify-center">
               <Link className="md:w-fit" target="_blank" href={link.url}>
                 <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">{link.version}</button>
@@ -57,11 +59,19 @@ export default function SectionThree() {
       })}
       </div>
       </div>
-      <div className="md:flex md:gap-32 py-6">
+      <div className="md:flex md:gap-32 py-6 justify-between">
         <div className="py-8">
           <Image className="rounded-lg"
             src="/core1.png"
             width={400}
+            height={2}
+            alt="Image1"
+          />
+        </div>
+        <div className="py-8 w-full md:w-auto">
+          <Image className="rounded-lg"
+            src="/core7.png"
+            width={580}
             height={2}
             alt="Image1"
           />
@@ -75,7 +85,7 @@ export default function SectionThree() {
           />
         </div>
       </div>
-      <div className="">
+      <div>
         <p className="text-xl pb-10">Ready for IOT, Artificial Intelligence, Supercomputer, Cloud Computing, Distributed Computing, Computer Vision, Quantum Computing and more...</p>
         <div className="flex flex-col md:grid md:grid-cols-2 items-center gap-10">
           <div>

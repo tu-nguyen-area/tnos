@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 const lLinks = [
   {
-    name: "TNOS 0.0.5 - GCC 15.0.1 | Glibc 2.41 | Linux 6.14",
+    name: "TNOS 0.0.5 - GCC 15.0.1 | Glibc 2.41 | Linux 6.14 (Experiment)",
     url: "https://drive.google.com/file/d/1lNFgXlzfZ0FnnErwvoEdlHTRUggqHhfh/view",
     version: "TNOS Core 0.0.5",
   },
   {
-    name: "TNOS 0.0.4 - GCC 14.2.0 | Glibc 2.40 | Linux 6.10.6",
+    name: "TNOS 0.0.4 - GCC 14.2.0 | Glibc 2.40 | Linux 6.10.6 (Stable)",
     url: "https://drive.google.com/file/d/1UhISg507ELN7vKS-RuMM-jb-UlBbBiyC/view",
     version: "TNOS Core 0.0.4",
   },

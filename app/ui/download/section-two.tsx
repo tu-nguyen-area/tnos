@@ -12,7 +12,7 @@ export default function SectionTwo() {
       <p>The open source operating system powers billions of servers and workstations around the world.</p>
       <p>Ship with Nginx web server, PostgreSQL database management system, Nodejs JavaScript runtime environment</p>
       <div className="mt-6">
-        <Link target="_blank" href="https://drive.google.com/file/d/1x0-GSJcWdhjn2ZlTAA8PgqZQ5zd23snw/view">
+        <Link target="_blank" href="https://drive.google.com/file/d/1cAjmwpDZs62jpRITtAWBL0wzoNdtQyHw/view">
           <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">TNOS Server</button>
         </Link>
       </div>

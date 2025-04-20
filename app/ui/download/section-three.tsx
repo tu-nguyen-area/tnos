@@ -37,6 +37,7 @@ const lLinks = [
 export default function SectionThree() {
   return (
   <>
+
   <section className="my-12 text-black">
   <div>
     <p className="text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent text-center w-fit">TNOS Core</p>
@@ -126,6 +127,7 @@ export default function SectionThree() {
       <p className="text-2xl">Everything you think, everything you can imagine...</p><div><Link href="/" className="text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent">Start here</Link></div>
     </div>
   </section>
+
   </>
   );
 }

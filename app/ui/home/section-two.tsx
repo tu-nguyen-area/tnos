@@ -44,7 +44,7 @@ export default function SectionTwo() {
           </div>
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>
-            <Link href="/">Releases TNOS 0.0.4</Link>
+            <Link href="/">Releases TNOS 0.0.5</Link>
           </div>
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>

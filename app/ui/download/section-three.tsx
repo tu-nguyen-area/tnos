@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const lLinks = [
   {
-    name: "TNOS 0.0.5 - GCC 15.1.0 | Glibc 2.41 | Linux 6.15.0",
-    url: "https://drive.google.com/file/d/1Kn4D8cdcqpH7hpGjAwZYjxBMwSnQ2cvV/view",
+    name: "TNOS 0.0.5 - GCC 15.1.0 | Glibc 2.41 | Linux 6.15.2",
+    url: "https://drive.google.com/file/d/1UAqry-LxKsSFiRG4sseFDZWAVB7ScSIK/view",
     version: "TNOS Core 0.0.5",
   },
   {

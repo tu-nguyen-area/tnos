@@ -53,7 +53,7 @@ export default function SectionTwo() {
         </div>
       </div>
 
-      <div className="mt-3 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+      <div className="mt-3 p-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500"></div>
 
       <div className="my-12 text-black">
         <div className="sm:flex gap-12">
@@ -79,7 +79,7 @@ export default function SectionTwo() {
         </div>
       </div>
 
-      <div className="mt-3 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+      <div className="mt-3 p-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500"></div>
 
       <div className="my-16 text-black">
         <div className="sm:flex gap-10">
@@ -126,7 +126,7 @@ export default function SectionTwo() {
         </div>
       </div>
 
-      <div className="mt-3 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+      <div className="mt-3 p-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500"></div>
     </section>
 
   </>

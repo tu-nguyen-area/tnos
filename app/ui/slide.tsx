@@ -11,7 +11,7 @@ export default function Slide() {
     <div className={`${styles.slideFlex} ${styles.slideSlipSlow}`}>
     {brands.map((brand) => {
       return (
-        <Image className="m-8"
+        <Image className="m-2 w-12 md:w-36 md:m-8"
             key={`${brand.name} ${Math.random()}`}
             src={brand.url}
             width={150}

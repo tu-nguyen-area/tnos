@@ -8,12 +8,12 @@ export default function SectionOne() {
   <section>
     <div className="md:flex justify-between md:py-8">
       <div className="text-black md:pb-12">
-        <p className="text-2xl md:text-3xl"><span className="text-2xl md:text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent text-center">TNOS 0.0.5</span> is now available for download</p>
+        <p className="text-2xl md:text-3xl"><span className="text-2xl md:text-3xl bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 bg-clip-text font-bold text-transparent text-center">TNOS 0.0.5</span> is now available for download</p>
         <p className="">Discover the latest and greatest features in our most recent interim release.</p>
         <p>Delivering the latest Linux 6.15 kernel, extended support for the most recent toolchains, and new experimental security features.</p>
         <div className="my-8">
           <Link href="/download">
-            <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">Get TNOS</button>
+            <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-rose-500">Get TNOS</button>
           </Link>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function SectionOne() {
       </div>
     </div>
 
-    <div className="my-8 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+    <div className="my-8 p-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500"></div>
 
     <div className="md:flex justify-between my-16">
       <div className="text-black">
@@ -35,7 +35,7 @@ export default function SectionOne() {
         <p>Security, support, and managed services from the publisher of TNOS. </p>
         <div className="mt-6">
           <Link href="/download">
-            <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">Get TNOS Pro</button>
+            <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-rose-500">Get TNOS Pro</button>
           </Link>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default function SectionOne() {
       </div>
     </div>
 
-    <div className="mt-3 p-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+    <div className="mt-3 p-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500"></div>
   </section>
 
   </>

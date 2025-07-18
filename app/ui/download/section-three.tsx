@@ -40,7 +40,7 @@ export default function SectionThree() {
 
   <section className="my-12 text-black">
   <div>
-    <p className="text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent text-center w-fit">TNOS Core</p>
+    <p className="text-3xl bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 bg-clip-text font-bold text-transparent text-center w-fit">TNOS Core</p>
     <p>The pure open source TNOS operating system.</p>
     <p>Ship with pure systems, ready to install any software, anytime, anywhere.</p>
     <div className="mt-6 flex flex-col gap-6 md:grid md:grid-cols-3 md:gap-12 w-full md:w-full justify-center items-center">
@@ -52,7 +52,7 @@ export default function SectionThree() {
             </div>
             <div className="md:flex justify-center">
               <Link className="md:w-fit" target="_blank" href={link.url}>
-                <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500">{link.version}</button>
+                <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-rose-500">{link.version}</button>
               </Link>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function SectionThree() {
         </div>
       </div>
     <div className="text-center my-8">
-      <p className="text-2xl">Everything you think, everything you can imagine...</p><div><Link href="/" className="text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent">Start here</Link></div>
+      <p className="text-xl md:text-3xl">Everything you think, everything you can imagine...</p><div><Link href="/" className="text-3xl md:text-4xl bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 bg-clip-text font-bold text-transparent">Start here</Link></div>
     </div>
   </section>
 

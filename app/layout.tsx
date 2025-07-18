@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "TN OS",
-  description: "TN OS Project",
+  description: "TN OS",
 };
 
 export default function RootLayout({

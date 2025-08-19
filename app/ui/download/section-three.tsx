@@ -3,33 +3,43 @@ import Image from 'next/image';
 
 const lLinks = [
   {
-    name: "TNOS 0.0.5 - GCC 15.1.0 | Glibc 2.41 | Linux 6.15.2",
-    url: "https://drive.google.com/file/d/1UAqry-LxKsSFiRG4sseFDZWAVB7ScSIK/view",
+    name: "TNOS 0.0.7 - GCC 16.1.0 | Glibc 2.43 | Linux 6.19.1",
+    url: "#",
+    version: "Coming soon...",
+  },
+  {
+    name: "TNOS 0.0.6 - GCC 15.2.0 | Glibc 2.42 | Linux 6.16.1",
+    url: "https://drive.google.com/file/d/1KFXTdRmnAbG26VOXwQKumWVm3_T4iaUw/view",
+    version: "TNOS Core 0.0.6",
+  },
+  {
+    name: "TNOS 0.0.5 - GCC 15.1.0 | Glibc 2.41 | Linux 6.15.10",
+    url: "https://drive.google.com/file/d/1bAa9eFaOcJxZPi6669AsUOFbyFsJ0KGs/view",
     version: "TNOS Core 0.0.5",
   },
   {
-    name: "TNOS 0.0.4 - GCC 14.2.0 | Glibc 2.40 | Linux 6.10.6",
-    url: "https://drive.google.com/file/d/1UhISg507ELN7vKS-RuMM-jb-UlBbBiyC/view",
+    name: "TNOS 0.0.4 - GCC 14.3.0 | Glibc 2.40 | Linux 6.10.6",
+    url: "https://drive.google.com/file/d/1qQAIvm1n8Kmn6sIN9o2FCJg9Iae9aOQ1/view",
     version: "TNOS Core 0.0.4",
   },
   {
-    name: "TNOS 0.0.3 - GCC 13.2.0 | Glibc 2.39 | Linux 6.7.4",
-    url: "https://drive.google.com/file/d/1mX8X54PTBnt7Yy2HLBeJVAgAfJXKtgZJ/view",
+    name: "TNOS 0.0.3 - GCC 13.4.0 | Glibc 2.39 | Linux 6.7.5",
+    url: "https://drive.google.com/file/d/19gA3jkp6Feri-xg4ovEE02sd-YvN18PG/view",
     version: "TNOS Core 0.0.3",
   },
   {
     name: "TNOS 0.0.2 - GCC 13.2.0 | Glibc 2.38 | Linux 6.4.12",
-    url: "https://drive.google.com/file/d/1_b3YebNa8ANPAdySGXD4Bh32n1wzu1th/view",
+    url: "https://drive.google.com/file/d/1Omw7dhX5Gj8ietFAPuNtuBc89d9mT89-/view",
     version: "TNOS Core 0.0.2",
   },
   {
-    name: "TNOS 0.0.1 - GCC 12.2.0 | Glibc 2.37 | Linux 6.1.11",
-    url: "https://drive.google.com/file/d/1QB4gwNbPBs1h8MbiKkHwuiOdv6xf8A1s/view",
+    name: "TNOS 0.0.1 - GCC 12.5.0 | Glibc 2.37 | Linux 6.1.12",
+    url: "https://drive.google.com/file/d/1sn4Lkm7c0yoCKaH7sHLnYVq1P2sCjORT/view",
     version: "TNOS Core 0.0.1",
   },
   {
-    name: "TNOS 0.0.0 - GCC 12.2.0 | Glibc 2.36 | Linux 5.19.2",
-    url: "https://drive.google.com/file/d/1xTDtXPD5D_ejMQuvbWGGq4rldm6yUZGi/view",
+    name: "TNOS 0.0.0 - GCC 12.2.0 | Glibc 2.36 | Linux 5.19.9",
+    url: "https://drive.google.com/file/d/1NOFcHEb8-OWSl8pVmzm6-9AYFfRtwLBD/view",
     version: "TNOS Core 0.0.0",
   },
 ];

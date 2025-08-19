@@ -32,7 +32,7 @@ export default function SectionTwo() {
         <div className="md:flex md:p-8 md:gap-10">
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>
-            <Link href="/">Join TNOS Club in Mars at Dell Technologies Forum Mars</Link>
+            <Link href="/">Join TNOS Club in Mars at TN Technologies Forum Mars</Link>
           </div>
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>
@@ -44,7 +44,7 @@ export default function SectionTwo() {
           </div>
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>
-            <Link href="/">Releases TNOS 0.0.5</Link>
+            <Link href="/">Releases TNOS 0.0.6</Link>
           </div>
           <div className="pb-8">
             <p>{nday} {nmonth} {nyear}</p>

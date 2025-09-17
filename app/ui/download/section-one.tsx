@@ -11,10 +11,23 @@ export default function SectionOne() {
         <div>
           <p className="text-3xl bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 bg-clip-text font-bold text-transparent text-center w-fit">TNOS for Desktops</p>
           <p className="text-black">The open source operating system powers billions of PCs and laptops around the world.</p>
-          <p className="text-black">Ship with Xorg, Fluxbox, Nodejs, Firefox web browser.</p>
-          <div className="my-6">
+          <p className="text-black">Ship with Xorg, Fluxbox, Firefox web browser.</p>
+          <div className="my-6 grid md:flex gap-8">
             <Link target="_blank" href="https://drive.google.com/file/d/10OuaUK24CSIYsFs9CCnU6jw4pNWDsD30/view">
-              <button className="bg-black rounded-lg text-white p-2 w-full md:w-36 h-10 hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-rose-500">TNOS Desktop</button>
+              <button className="bg-black rounded-lg text-white p-2 w-full
+                md:w-36 h-10 hover:bg-gradient-to-r hover:from-blue-500
+                hover:via-purple-500 hover:to-rose-500"
+              >
+                TNOS Desktop
+              </button>
+            </Link>
+            <Link target="_blank" href="https://drive.google.com/file/d/1-eR4qUrLUxpYQxlUZv3-vp0evIAr42EN/view">
+              <button className="bg-black rounded-lg text-white p-2 w-full
+                md:w-36 h-10 hover:bg-gradient-to-r hover:from-blue-500
+                hover:via-purple-500 hover:to-rose-500"
+              >
+                TNOS Gnome
+              </button>
             </Link>
           </div>
           <div className="py-6 text-black">

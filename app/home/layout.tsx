@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   <div className={`${styles.bg} overflow-x-hidden`}>
     <Header />
-    {children}
+      {children}
     <Footer />
   </div>
 

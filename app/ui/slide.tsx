@@ -6,9 +6,9 @@ const brands = [ ...slImage, ...slImage, ...slImage, ...slImage, ...slImage, ...
 
 export default function Slide() {
   return (
-    <>
+  <>
 
-    <div className={`${styles.slideFlex} ${styles.slideSlipSlow}`}>
+  <div className={`${styles.slideFlex} ${styles.slideSlipSlow}`}>
     {brands.map((brand) => {
       return (
         <Image className="m-2 w-12 md:w-36 md:m-8"
@@ -20,8 +20,8 @@ export default function Slide() {
         />
       );
     })}
-    </div>
+  </div>
 
-    </>
+  </>
   );
 }
